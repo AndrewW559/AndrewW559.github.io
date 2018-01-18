@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>Assessment One</title>
+    <center>
+    <h1>This is Assessment 1</h1>
+    <h3>By: Andrew Wood</h3>
+    <h2><ins>Apple Computers</ins></h2>
+    </center>
+  </head>
+  
+  <body>
+    <p>
+      Apple computers are cool.<mark>They are not actually made from apples.</mark> They are very <strong>expensive.</strong> Paragraphs are so much fun.
+    </p>
+    <p style="background-color:blue; color:red">
+      <em>
+        This crazy formatting is probably difficult to read. In the future, colors with stronger contrast might be preferrable. Black on white was made for a reason.
+        
+      </em>
+    </p>
+    <br>
+    <p>
+      <center>
+        I do not own an <a href=https://www.apple.com/ target="_blank">Apple Computer</a>
+      </center></p>
+<br>
+<p><img src="apple.jpg" alt="Apple" style="width: 200px; height: 150px;float:right"></p>
+<br>
+<p>
+  <table style= "width:50%">
+   <tr> <th>Name</th> <th>Gender</th><th>Age</th></tr>
+   <tr><td>Karl</td>
+   <td>Fisch</td>
+   <td>53</td>
+   </tr>
+   <tr>
+     <td>Natalie</td>
+     <td>Female</td>
+     <td>49</td>
+   </tr>
+    <tr>
+      <td>Maria</td>
+      <td>Female</td>
+      <td>32</td>
+    </tr>
+  </table>
+</p>
+<p>
+  <ol type= "a">
+    <li>Alpha</li>
+    <li>Bravo</li>
+    <li>Charlie</li>
+  </ol>
+</p>
+  </body>
+  
+ 
+</html>
