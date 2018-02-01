@@ -1,0 +1,41 @@
+a:link {
+    color: rgb(0,0,255);
+    
+}
+
+a:visited {
+    color: rgb(0,255,0);
+    
+}
+
+
+a:hover {
+    color: rgb(255,165,0);
+}
+
+.spicy {
+  color:red;
+  text-align:center;
+  padding: 20px;
+  border: 10px inset blue;
+  margin: 40px;
+
+}
+#bacon1 {
+  color:white;
+  text-align:left;
+  padding: 20px;
+  border: 10px solid red;
+  border-radius: 20px;
+  margin: 40px;
+  background-color:black;
+}
+#bacon2 {
+  color:#ffcc00;
+  text-align:left;
+  padding: 20px;
+  border: 10px ridge rgb(192,192,192);
+  border-radius: 50px;
+  margin: 10px 5px;
+  background-color: rgb(200, 0,200);
+}
