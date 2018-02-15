@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+  
+<title>Random Number</title>
+  
+</head>
+
+  <body>
+  <button id="button" onclick="myFunction()">"Guess a Number from 0 to 5!"</button>
+  <div id=answer>Answer Here</div>
+  
+   <script>
+      var number = Math.floor((Math.random() * 5) + 1);
+      function myFunction() {
+      
+      var guess = prompt("Enter your number:", " ");
+      
+      if (number==guess) {
+      document.getElementById("answer").innerHTML = "Correct!"
+      } else {
+      document.getElementById("answer").innerHTML = "Wrong"
+      document.getElementById("button").innerHTML = "Guess Again!"
+      }
+      }
+    </script>
+      
+  </body>
+  
+</html>
