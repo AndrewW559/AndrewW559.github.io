@@ -11,18 +11,22 @@
     </head>
     
     <body>
-    <p>
-    <button onclick= "myFunction()">Click Me</button>  
+    <p id="para1">
+    <button id="button" onclick= "myFunction()">Click Me</button>  
     </p>
-    <div id="2"></div>
+    <div id="2">  </div>
     
     <script>
     
     function myFunction() {
     var correct = "ilovekarl";
     var guess = prompt ("What is the password?", "")
-    while (guess == correct)  {
+    if (guess == correct)  {
     document.getElementById("2").innerHTML = "Correct! Hello Karl!";
+    document.getElementById("para1").innerHTML= "  ";
+    } else {
+    document.getElementById("2").innerHTML = "Wrong. Try Again.";
+    document.getElementById("button").innerHTML = "Try Again";
     }
     }
     
