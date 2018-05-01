@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>My Links Page</title>
-	</head>
-	<body>
-		<ul>
-        		<li><a href="/firsturl.html">First Page</a></li>
-        		<li><a href="/secondurl.html">Second Page</a></li>
-        		<li><a href="/thirdurl.html">Third Page</a></li>
-    		</ul>
-	</body>
+
+<html class="page">
+  
+<head>
+  
+  <title>Final Project</title>
+  <link href="stylefinal.css" rel="stylesheet" type="text/css">
+  <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="scriptfinal.js"></script>
+</head>
+
+<body>
+      <script type="text/javascript" src="scriptfinal.js"></script>
+    <div class="header" id="myHeader">
+    <img src="logov1.png" width="90%">
+    </div>
+    <div id="topbar">
+    <button id="home" class="headerbutton" onclick="window.location.href='index.html'">Home</button>
+    <button id="about" class="headerbutton" onclick="window.location.href='about.html'">About Us</button>
+    <button id="images" class="headerbutton" onclick="window.location.href='images.html'">Images</button>
+    </div>
+  <div id="slideshow">    
+   
+
+   
+
+  <img Width="100%" height="100%" src="Slide1.png" id="currentImage">
+  <div id="slidebar">
+  <img src="leftarrow.png" class="arrow" id="leftarrow" onclick="slideLeft()">
+  <img src="dot.png" class="dot" id="dot1" onclick="slideToOne()">
+  <img src="dot.png"  class="dot" id="dot2" onclick="slideToTwo()">
+  <img src="dot.png"  class="dot" id="dot3" onclick="slideToThree()">
+  <img src="rightarrow.png" class="arrow" id="rightarrow" onclick="slideRight()">
+  </div>
+    
+
+    
+    <p class = "text">
+    Welcome to . Our latest game, Deuterium, is a game of space exploration and area control for 2-5 players. 
+    This project has been in the making for a very long time, and is almost entirely created by myself.
+    Please explore and consider supporting.
+      
+    </p>
+    
+    <hr>
+  </div>
+  
+<div id="footer">
+  
+<iframe src="contactfinal.html" id="contactfinal" height="150px"></iframe>
+
+</div>
+  </body>
+  
 </html>
