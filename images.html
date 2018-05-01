@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html class="page">
+  
+<head>
+  
+  <title>Final Project</title>
+  <link href="stylefinal.css" rel="stylesheet" type="text/css">
+  <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="scriptfinal.js"></script>
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+    <img src="logov1.png" width="90%">
+    </div>
+    <div id="topbar">
+    <button id="home" class="headerbutton" onclick="window.location.href='home.html'">Home</button>
+    <button id="about" class="headerbutton" onclick="window.location.href='about.html'">About Us</button>
+    <button id="images" class="headerbutton" onclick="window.location.href='images.html'">Images</button>
+    </div>
+  <div id="content">    
+  
+    <p class = "text">
+    This page includes images from all stages of the design process. Some may go back as far as original drawings in a graph notebook.
+    Others will be from the most recent card designs and layouts. 
+    Click on any image to view a larger version. Resize the window to any size.
+    </p>
+    
+  </div>
+  
+  <div id="imagegrid">
+      <div id="row1">
+        <img src="grid1.png" class="grid" id="grid1" onclick="openGrid1()">
+        <img src="grid2.jpg" class="grid" id="grid2" onclick="openGrid2()">
+      </div>
+      <div id= "row2">
+        <img src="grid3.png" class="grid" id="grid3" onclick="openGrid3()">
+        <img src="grid4.png" class="grid" id="grid4" onclick="openGrid4()">
+        <img src="grid5.jpg" class="grid" id="grid5" onclick="openGrid5()">
+      </div>
+      <div id= "row3">
+        <img src="grid6.png" class="grid" id="grid6" onclick="openGrid6()">
+        <img src="grid7.png" class="grid" id="grid7" onclick="openGrid7()">
+      </div>
+      <img src="grid8.jpg" class="grid" id="grid8" onclick="openGrid8()">
+  </div>
+  <div id="dialog" title="Deuterium Images">
+    <img src=grid1.png width= 100% id="dialogImg">
+  </div>
+<div id="footer">
+  
+<iframe src="contactfinal.html" id="contactfinal" height="150px"></iframe>
+
+</div>
+  </body>
+  
+</html>
