@@ -51,7 +51,7 @@ function openGrid1(){
   p=0;
   
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200 });
+    $( "#dialog" ).dialog({ width: w-200, maxHeight: h-100  });
 
   } );
  document.getElementById("dialogImg").src = "grid1.png";
@@ -68,7 +68,7 @@ function openGrid2(){
 function openGrid3(){
   p=2;
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200 });
+    $( "#dialog" ).dialog({ width: w-200, maxHeight: h-100  });
   } );
  document.getElementById("dialogImg").src = "grid3.png";
 }
