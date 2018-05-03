@@ -1,6 +1,6 @@
 var i=0; //Starting Slide Index
 
-var slides = ["Slide1.png", "Slide2.jpg", "Slide3.png"];
+var slides = ["Slide1.png", "Slide2.jpg", "Slide3.png","Slide1.png", "Slide2.jpg", "Slide3.png","Slide1.png", "Slide2.jpg", "Slide3.png"];
 
 
 function slideLeft(){
@@ -12,16 +12,16 @@ function slideRight(){
   i++;
 }
 function slideToOne() {
-  i=0;
-  document.getElementById('currentImage').src= slides[0];
+  i=3;
+  document.getElementById('currentImage').src= slides[3];
 }
 function slideToTwo() {
-  i=1;
-  document.getElementById('currentImage').src= slides[1];
+  i=4;
+  document.getElementById('currentImage').src= slides[4];
 }
 function slideToThree() {
-  i=2;
-  document.getElementById('currentImage').src= slides[2];
+  i=5;
+  document.getElementById('currentImage').src= slides[5];
 }
 if (i<0) {
   i=0;
