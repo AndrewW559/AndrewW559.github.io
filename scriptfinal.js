@@ -51,7 +51,7 @@ function openGrid1(){
   p=0;
   
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200, maxHeight: h-100  });
+    $( "#dialog" ).dialog({ height: h-100 });
 
   } );
  document.getElementById("dialogImg").src = "grid1.png";
@@ -60,7 +60,7 @@ function openGrid1(){
 function openGrid2(){
   p=1;
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200 });
+    $( "#dialog" ).dialog({ width: w-100 });
   } );
  document.getElementById("dialogImg").src = "grid2.jpg";
 }
@@ -68,7 +68,7 @@ function openGrid2(){
 function openGrid3(){
   p=2;
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200, maxHeight: h-100  });
+    $( "#dialog" ).dialog({ height: h-100});
   } );
  document.getElementById("dialogImg").src = "grid3.png";
 }
@@ -76,7 +76,7 @@ function openGrid3(){
 function openGrid4(){
   p=3;
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200 });
+    $( "#dialog" ).dialog({ height: h-100 });
   } );
  document.getElementById("dialogImg").src = "grid4.png";
 }
@@ -100,7 +100,7 @@ function openGrid6(){
 function openGrid7(){
   p=6;
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200 });
+    $( "#dialog" ).dialog({ height: h-100 });
   } );
  document.getElementById("dialogImg").src = "grid7.png";
 }
@@ -108,7 +108,7 @@ function openGrid7(){
 function openGrid8(){
   p=7;
   $( function() {
-    $( "#dialog" ).dialog({ width: w-200 });
+    $( "#dialog" ).dialog({ width: w-100 });
   } );
  document.getElementById("dialogImg").src = "grid8.jpg";
 }
